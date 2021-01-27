@@ -1,13 +1,11 @@
 # TinyObjectDetect
 
-This is a Faster-RCNN model trained on Tensorflow Object Detection API TF2 
-
-Model is trained on pictures from folder datasets
-
-It recognizes rice grains in number 1-200 or even more but with smaller accuracy
+Faster RCNN model trained for Tiny Object Detection, it detects 1-200 rice grains with very high accuracy
+My own dataset of rice grains created is locacted in datasets folder
+Feel free to use it, please cite me when doing so
 
 To make work you need to:
 
 1. Fork this repository
 
-work in progress rest steps will be added later
+[work in progress rest steps will be added later]
