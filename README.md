@@ -12,7 +12,7 @@ Feel free to use it, please cite me when doing so.
 To make it work:
 1. Fork this repository
 2. Download trained checkpoint file from: https://drive.google.com/file/d/1L5fxH_xaN6RIy0oRyhVTNc9JYxqYH3YD/view?usp=sharing
-3. Put downloaded file in trained model directory, index file and pipeline config are already there
+3. Put downloaded file in trained_model directory, index file and pipeline config are already there
 4. Git clone Tensorflow Models repository into main TinyObjectDetect folder
 ```
 git clone https://github.com/tensorflow/models.git

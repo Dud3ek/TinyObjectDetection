@@ -62,8 +62,8 @@ def get_keypoint_tuples(eval_config):
 # model loading
 
 model_name = 'faster_rcnn'
-pipeline_config = '/home/dodzio/github/TinyObjectDetect/trained_model/pipeline.config'
-model_dir = '/home/dodzio/github/TinyObjectDetect/trained_model'
+pipeline_config = ''
+model_dir = ''
 
 configs = config_util.get_configs_from_pipeline_file(pipeline_config)
 model_config = configs['model']
@@ -102,8 +102,8 @@ categories = label_map_util.convert_label_map_to_categories(
 category_index = label_map_util.create_category_index(categories)
 label_map_dict = label_map_util.get_label_map_dict(label_map, use_display_name=True)
 
-image_dir = '/home/dodzio/github/TinyObjectDetect/datasets/rice_basic/test/'
-image_path = os.path.join(image_dir, 'IMG_2952_jpg.rf.ea09737e390d1ccf1a01c02c47c982fd.jpg')
+image_dir = ''
+image_path = os.path.join(image_dir, '')
 image_np = load_image_into_numpy_array(image_path)
 
 # Things to try:
