@@ -78,4 +78,5 @@ image_path = os.path.join(image_dir, '[Name of image along with extension]')
 file_dir = '[Absolute path to iou directory]'
 file_path= os.path.join(file_dir, '[Name of xml file with coords of groundtruth boxes]')
 ```
+3. Run iou .py file, iou calculation will be shown on console, image with boxes will be saved as estimate_iou .jpg
 ![](estimate_iou.jpg)
