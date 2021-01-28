@@ -13,7 +13,7 @@ To make it work:
 1. Fork this repository
 2. Download trained checkpoint file from: https://drive.google.com/file/d/1L5fxH_xaN6RIy0oRyhVTNc9JYxqYH3YD/view?usp=sharing
 3. Put downloaded file in trained_model directory, index file and pipeline config are already there
-4. Git clone Tensorflow Models repository into main TinyObjectDetect folder
+4. Git clone Tensorflow Models repository into main TinyObjectDetection folder
 ```
 git clone https://github.com/tensorflow/models.git
 ```
@@ -54,8 +54,9 @@ model_dir = '[ABSOLUTE PATH TO trained_model directory]'
 image_dir = '[ABSOLUTE PATH TO directory with images]'
 ```
 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;In basic case directory with images is datasets/rice_basic/test or valid
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Don't forget to put "/" at the end of path, otherwise os.path.join would throw and error
 ```
 image_path = os.path.join(image_dir, '[NAME OF JPG FILE ALONG WITH EXTENSTION]')
 ```
 10. Run detect .py file, image with detection bounding boxes will appear in main TinyObjectDetection directory as detection .jpg
-
+![](detection.jpg)
