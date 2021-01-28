@@ -60,3 +60,21 @@ image_path = os.path.join(image_dir, '[NAME OF JPG FILE ALONG WITH EXTENSTION]')
 ```
 10. Run detect .py file, image with detection bounding boxes will appear in main TinyObjectDetection directory as detection .jpg
 ![](detection.jpg)
+
+### IoU Calculation
+
+Program for calculating IoU of all boxes and drawing groundtruth (red) and detections (blue) on image is iou .py
+This requires .xml file with coordinates of groundtruth boxes to do correct calculations.
+
+To run it:
+1. Make sure u did correctly steps 1-10 for running detection task
+2. Open iou .py file and adjust paths (exemplary photo and xml coordinates are located in datasets/iou directory)
+```
+image_dir = '[Absolute path to iou directory]'
+image_path = os.path.join(image_dir, '[Name of image along with extension]')
+```
+```
+file_dir = '[Absolute path to iou directory]'
+file_path= os.path.join(file_dir, '[Name of xml file with coords of groundtruth boxes]')
+```
+![](estimate_iou.jpg)
