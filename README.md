@@ -8,9 +8,10 @@ Based on model and code from Tensorflow Models github repository.
 My own dataset of rice grains is located in datasets folder.
 
 Feel free to use it, please cite me when doing so.
+Will very apprieciate hitting star and watch buttons if u find my work helpful.
 ### Running detection on trained model
 To make it work:
-1. Fork this repository
+1. Git clone this repository
 2. Download trained checkpoint file from: https://drive.google.com/file/d/1L5fxH_xaN6RIy0oRyhVTNc9JYxqYH3YD/view?usp=sharing
 3. Put downloaded file in trained_model directory, index file and pipeline config are already there
 4. Git clone Tensorflow Models repository into main TinyObjectDetection folder
