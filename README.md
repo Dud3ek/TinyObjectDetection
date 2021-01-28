@@ -1,6 +1,6 @@
 # TinyObjectDetection
 
-### Requirements: Python 3.6
+### Recommended Requirements: Python 3.6, Cuda 10.1, Cudnn v7.6.5
 
 Faster RCNN model trained for Tiny Object Detection, it detects 1-200 rice grains with very high accuracy.
 Based on model and code from Tensorflow Models github repository.
